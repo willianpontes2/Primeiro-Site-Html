@@ -1,8 +1,20 @@
-#title, .subtitle, .post_title {
-    color:blue;
+@charset "UTF-8";
+/* Regra charset caso haja problemas de acentuação */
+
+body {
+    background-image: linear-gradient(36deg, #aa4848, #4f4fca);
+    color: black;
+    font-size: 12pt;
+    font-family: Arial;
 }
 
-post_title {
-    font-size: 16px;
-    font-style: italic;
+h1 {
+    color: #0e0000;
 }
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Manter os contatos */
