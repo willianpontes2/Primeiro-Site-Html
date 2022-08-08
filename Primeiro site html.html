@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Primeiro Site Html</title>
             <link rel="stylesheet" href="Style.css">
             </head>
                <body>
-        
+                    
+                <style>
+                    h1 {
+                                width: 300px;
+             height: 50px;
+             background-color: #57a1a1;
+             border-width: 5px;
+             border-style: solid;
+             border-color: black;
+             padding: 20px;
+             outline-width: 10px;
+             outline-style: solid;
+             outline-color: #9b0000;
+             margin: 50px;}
+             
+                     div > p {
+                         display: none;
+                                 }
+             
+                     div:hover > p {
+                         display: block;
+                         background-color: yellow;
+                     }
+                 </style>
+
+                 <style>
+                    article#caixa {
+                        background-color: #a14a40;
+                        width: 400px;
+                    margin: auto;
+                padding: 1px 11px;        
+            box-shadow: 6px 3px 4px #690202;    
+        border-radius: 8px 13px 5px;        }
+                 </style>
+
         <header>
             <img src="https://m.media-amazon.com/images/I/71JOfcqjjgL._AC_SX355_.jpg" alt="van halen foto">
-                        </header>
+                                    </header>
         <section>
             <header>
                 <h1>Homenagem ao Rock n Roll</h1>
@@ -24,15 +59,17 @@
                 </dl>
                 <img src="https://i.ytimg.com/vi/ZgnoiP6JHBw/sddefault.jpg" alt="ilustracao">
             </header>
-            <h2>Bandas famosas</h2>
+           
+            <article id="caixa"> <h2 id="titulo">Bandas famosas</h2>
+            </article>
             <h3>
             <ol>
                 <li> Van Halen</li>
                 <p>Banda formada pelos irmãos Alex e Edward</p>
                 <li><mark> Iron Maiden</mark></li>
                 <p>Banda criada pelo baixista Steve Harris</p>
-                <li>Queen</li>
-                <li>Guns n Roses</li>
+                <li class="relevante">Queen</li>
+                <li class="relevante">Guns n Roses</li>
             </ol>
         </h3>
 
@@ -59,6 +96,10 @@
                     <a href="https://github.com/willianpontes2" target="_blank" rel="external">github</a>
                 </li>
             </ul>
-        </footer>        
+        </footer>    
+
+     <h1>Ronnie James Dio</h1>    
+     <div>Rainbow in the Dark <p>OoooooUooou</p></div>
+     <p>Surprise</p>
     </body>
 </html>
